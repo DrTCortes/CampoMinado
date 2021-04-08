@@ -12,13 +12,15 @@ export default class App extends Component {
         {/* <Text>Iniciando o Mines!</Text>
         <Text>Tamanho da grade: {params.getRowsAmount()} x {params.getColumnsAmount()}</Text> */}
         
-        <Field />
+        <Field mined/>
         <Field opened mined/>
         <Field opened nearMines={1}/>
         <Field opened nearMines={2}/>
         <Field opened nearMines={3}/>
         <Field opened nearMines={5}/>
         <Field opened mined exploded/>
+        <Field flagged/>
+        <Field flagged opened/>
 
       </View>
     )
